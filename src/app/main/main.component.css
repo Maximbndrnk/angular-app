@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  display: flex;
+
+}
+
+.pagi:hover {
+  cursor: pointer;
+}
+
+.pagi {
+  padding: 5px;
+  color: blue;
+}

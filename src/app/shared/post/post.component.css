@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.body {
+  font-size: 15px;
+  padding-top: 0;
+}
+
+.container:hover {
+  cursor: pointer;
+}
